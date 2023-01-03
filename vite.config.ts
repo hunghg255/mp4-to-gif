@@ -2,9 +2,7 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import EnvironmentPlugin from 'vite-plugin-environment';
 import checker from 'vite-plugin-checker';
-import alias from '@rollup/plugin-alias';
 import * as path from 'path';
-import crossOriginIsolation from 'vite-plugin-cross-origin-isolation';
 
 // https://vitejs.dev/config/
 export default defineConfig({
